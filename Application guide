@@ -1,0 +1,50 @@
+# Complicated Application Setup Guide
+
+## Introduction
+This guide will walk you through the steps to set up and run the "complicated" application for restaurant menu management.
+
+## Prerequisites
+- Java Development Kit (JDK) installed on your system.
+- Git installed (optional, if you're cloning the repository).
+
+## Setup Instructions
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/Bekosh34/BekoErasmus.git
+    ```
+
+2. Navigate to the "complicated" directory:
+    ```bash
+    cd BekoErasmus/complicated
+    ```
+
+3. Download the sample database file.
+
+4. Place the sample database file in the "data" directory of the application.
+
+5. Update the application configuration (if necessary) to specify the path to the sample database file.
+
+## Running the Application
+1. Compile the application:
+    ```bash
+    javac -cp lib/*:. Main.java
+    ```
+
+2. Run the application:
+    ```bash
+    java -cp lib/*:. Main
+    ```
+
+3. The application should launch, displaying the menu management system UI.
+
+## Using the Application
+- Upon launching the application, you'll be presented with options to add, edit, or delete menu items.
+- Follow the on-screen instructions to navigate through the application and perform desired actions.
+
+## Troubleshooting
+- If you encounter any issues, ensure that you've placed the sample database file in the correct directory and updated the application configuration accordingly.
+- Check for any error messages in the console for clues on what might be going wrong.
+
+## Additional Resources
+- For more information on JavaFX and GUI application development, refer to [JavaFX Documentation](https://openjfx.io/).
+- If you encounter technical difficulties, don't hesitate to seek assistance from a technical support forum or community.
