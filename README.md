@@ -1,5 +1,5 @@
 BekoErasmus
-This repository contains two Java projects developed by Beko as part of the Erasmus program. Each project serves a different purpose and demonstrates various programming concepts and technologies.
+This repository contains two Java projects developed by Beko. Each project serves a different purpose and demonstrates various programming concepts and technologies.
 
 Projects Overview
 1. davidprogramming
